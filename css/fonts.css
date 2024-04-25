@@ -1,0 +1,10 @@
+
+@font-face {
+    font-family: 'Candara W99 Regular';
+    src: url('../font/Candara W99 Regular') format('woff2'),
+        url('../font/Candara W99 Regular') format('woff');
+    font-weight: regular;
+    font-style: normal;
+    font-display: swap;
+}
+

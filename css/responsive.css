@@ -1,0 +1,605 @@
+@media (max-width:1799px) {
+    
+    .donate_btn{
+        padding: 0 50px;
+    }
+   
+}
+
+@media (max-width:1599px) {
+   
+	.donate_btn{
+		font-size: 26px;
+	}
+	.main_nav li a{
+		font-size: 17px;
+	}
+}
+
+@media (max-width:1399px) {
+	
+    .main_nav li{
+        margin: 0 20px;
+    }
+	.main_nav li a{
+		font-size:15px;
+	}
+    .donate_btn{
+        margin-left: 30px;
+        font-size: 25px;
+        padding: 0 40px;
+        height: 44px;
+    }
+    
+    .main_header{
+        padding: 30px 0;
+    }
+    .section_heading{
+        margin-bottom: 80px;
+    }
+   
+    
+}
+
+@media (max-width:1199px) {
+    .main_header{
+        padding: 20px 0;
+    }
+    
+    .main_nav li{
+        margin: 0 10px;
+    }
+	.main_nav li a {
+		font-size: 14px;
+	}
+    .donate_btn{
+        margin-left: 30px;
+        font-size: 18px;
+        padding: 0 10px;
+        height: 44px;
+    }
+   
+    
+	
+}
+
+@media (max-width:991px) {
+    .donate_btn{
+        margin-left: 10px;
+    }
+    /* mobile menu start */
+    .main_nav{
+        position: fixed;
+        height: 100%;
+        background: #fff;
+        left: -500px;
+        width: 350px;
+        top: 20px;
+        overflow-y: auto;
+        z-index: 9999;
+        box-shadow: 0 0 20px #00000054;
+        transition: all 300ms ease-in-out;
+    }
+    .responsiveOverlay{
+        position: fixed;
+        background: #0000006e;
+        height: 100%;
+        width: 100%;
+        top: 20%;
+        left: 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 300ms ease-in-out;
+        backdrop-filter: blur(4px);
+    }
+    .responsiveOverlay_on{
+        opacity: 1;
+        visibility: visible;
+    }
+    .main_nav_open{
+        left: 0;
+    }
+    .main_nav > ul{
+        padding-top: 15px;
+    }
+    .main_nav ul ul{
+        display: none;
+    }
+    .main_nav li{
+        display: block;
+        margin: 0;
+        flex: 0 0 100%;
+        border-top: 1px solid #0000003a;
+    }
+    .main_header_black .main_nav > ul > li > a{
+        color: #fff;
+    }
+    .main_nav > ul > li:last-child{
+        border-bottom: 1px solid #ffffff3a;
+    }
+    .main_nav li.menu-item-has-children > a{
+        padding-right: 40px;
+    }
+    .main_nav ul ul{
+        padding-left: 15px;
+    }
+    .main_nav li a{
+        padding: 10px 12px;
+    }
+    .mean-expand{
+        display: block;
+        position: absolute;
+        right: 0;
+        height: 40px;
+        top: 0;
+        width: 40px;
+        background: #0075C488;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mean-expand svg{
+        width: 20sx;
+        height: 20px;
+        transition: all 300ms ease-in-out;
+    }
+    .mean-expand.mean-clicked svg{
+        transform: rotate(180deg);
+    }
+    .mob_menu_btn{
+        display: inline-flex;
+        width: 44px;
+        justify-content: center;
+        align-items: center;
+        height: 44px;
+        border: none;
+        margin-left: 20px;
+        background: var(--white-color);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.35);
+    }
+    .mob_menu_btn svg{
+        transform: rotate(90deg);
+        stroke: var(--black-color);
+        transition: all 300ms ease-in-out;
+    }
+    .mob_menu_btn:hover {
+        background: var(--brown);
+    }
+    .mob_menu_btn:hover svg{
+        stroke: #fff;
+    }
+    
+}
+@media (max-width:1024px) {
+    .logo{
+        max-width:150px;
+    }
+    
+    .section-heading h2 {
+        padding: 0px 10px 10px 10px;
+    }
+    .surgical-item{
+        flex-wrap: row wrap;
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 280px;
+        grid-auto-flow: row dense;
+    }
+    .surgical-item .grid-item:nth-child(1){
+        width: 400px;
+        height: 100%;
+        object-fit: cover;
+     }
+    .surgical-item .grid-item:nth-child(1) img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+     }
+     .surgical-item .grid-item:nth-child(2){ 
+        width: 250px;
+        height: 100%;
+        object-fit: cover;
+    }
+    .surgical-item .grid-item:nth-child(2) img{ 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .surgical-item .grid-item:nth-child(3){ 
+        width: 250px;
+        height: 100%;
+        object-fit: cover;
+    }
+     .surgical-item .grid-item:nth-child(3) img{ 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .surgical-item .grid-item:nth-child(4){ 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .surgical-item .grid-item:nth-child(4) img{ 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .item-right-content {
+        padding: 150px 20px;
+        
+    }
+    .testi-item-left img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+    .content-details ul li a {
+        font-size: 16px;
+    }
+    .testi-slider {
+        height: 300px;
+    }
+    .content-details h3.content-title {
+        font-size: 24px;
+        margin-bottom: 0px;
+    }
+    .content-details ul li {
+        padding: 4px 0px;
+    }
+    .grid-item:nth-child(4) .content-details ul li a {
+       font-size: 15px;
+    }
+}
+@media (max-width:767px) {
+    .header_right {
+        margin-top: 15px;
+    }
+    .banner-text {
+        background: var(--white-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 325px;
+        height: 328px;
+        text-align: center;
+        margin: auto;
+        border-radius: 10px;
+    }
+    .banner-text::before{
+        content: "";
+        position: absolute;
+        border: 1px dotted #000;
+        /* padding: 30px; */
+        width: 300px;
+        height: 300px;
+        border-radius: 10px
+    }
+    .banner-text p {
+        font-size: 22px;
+        padding: 0px 0px;
+    }
+    .banner-text h3 {
+        font-size: 38px;
+    }
+    .surgical-item .grid-item:nth-child(1){
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+     }
+    .surgical-item .grid-item:nth-child(1) img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+     }
+     .surgical-item .grid-item:nth-child(2){ 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .surgical-item .grid-item:nth-child(2) img{ 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .surgical-item .grid-item:nth-child(3){ 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+     .surgical-item .grid-item:nth-child(3) img{ 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .surgical-item .grid-item:nth-child(4){ 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .surgical-item .grid-item:nth-child(4) img{ 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .surgical-item {
+        display: block;
+        padding: 0px 10px;
+    }
+    .section-heading h2 {
+        font-size: 29px;
+        padding-bottom: 20px;
+    }
+    .testi-item-left img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+    .testi-slider p i.fas.fa-quote-left {
+        position: absolute;
+        left: 0px;
+        top: 31px;
+    }
+    .content-details h3.content-title {
+        color: var(--black-color);
+        font-family: var(--BookAntiqua);
+        font-size: 28px;
+        margin-bottom: 0px;
+    }
+}
+@media(max-width:991.98px){
+    .surgical-item .grid-item:nth-child(1){
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+     }
+    .surgical-item .grid-item:nth-child(1) img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+     }
+     .surgical-item .grid-item:nth-child(2){ 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .surgical-item .grid-item:nth-child(2) img{ 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .surgical-item .grid-item:nth-child(3){ 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+     .surgical-item .grid-item:nth-child(3) img{ 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .surgical-item .grid-item:nth-child(4){ 
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .surgical-item .grid-item:nth-child(4) img{ 
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .surgical-item {
+        display: block;
+        padding: 0px 10px;
+    }
+    .grid-item .content-overlay {
+        background: #f8f6f3d9;
+        position: absolute;
+        height: 92%;
+        width: 90%;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 0;
+        -webkit-transition: all 0.4s ease-in-out 0s;
+        -moz-transition: all 0.4s ease-in-out 0s;
+        transition: all 0.4s ease-in-out 0s;
+        margin: 17px;
+    }
+    .content-details ul li {
+        padding: 3px 0px;
+    }
+    .testi-slider p i.fas.fa-quote-left {
+        position: absolute;
+        left: 0px;
+        top: 31px;
+    }
+    /*---testimonial--*/
+    .testi-item{
+        display: block;
+    }
+    .testi-item-left{
+        width: 100%;
+    }
+    .testi-item-right{
+        width: 100%;
+        min-height: auto;
+        display: block;
+    }
+    .item-right-content {
+        padding: 25px 10px;
+    }
+    .item-right-content h4 {
+        font-size: 25px;
+        padding: 20px 0px;
+        margin: 0px;
+    }
+    .testi-slider h5 {
+        margin: 0px 0px;
+    }
+    .testi-slider p {
+        max-width: 100%;
+        margin: 25px 0px;
+        border: 1px dotted #000;
+        border-radius: 10px;
+        padding: 20px;
+        font-size: 18px;
+    }
+    .testi-item-left img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+    .footer-left {
+        border-right: none;
+        padding-right: 0px;
+    }
+    .footer-right {
+        margin-left: 0px;
+    }
+    .footer-logo .img {
+        width: 100%;
+        height: auto;
+    }
+    .banner_panel {
+        min-height: auto;
+        padding: 80px 0px;
+    }
+    .grid-item {
+        margin-bottom: 20px;
+    }
+    .grid-item .content-overlay::before {
+        width: 90%;
+        height: 91%;
+        border-radius: 10px;
+    }
+    .content-details ul li a {
+        font-size: 16px;
+    }
+    .grid-item:nth-child(4) .content-overlay2 {
+        height: 93%;
+        width: 94%;
+        
+    }
+    section.surgical-sec {
+        padding: 25px 0px;
+    }
+    
+    
+
+}
+@media (max-width:575px) {
+      .logo {
+        max-width: 99px;
+    }
+    
+}
+@media (max-width:480px) {
+    
+    .main_nav{
+        width: 270px;
+    }
+	.donate_btn{
+		font-size:18px;
+	}
+    .content-details ul li {
+        padding: 1px 0px;
+    }
+   
+}
+@media (max-width:414px) {
+
+    .mob_menu_btn{
+        margin-left: 10px;
+    }
+}
+@media (max-width: 767px){
+    .logo {
+        max-width: 116px;
+    }
+}
+
+@media (max-width: 991px){
+    .date-banner-text p{
+        margin-bottom: 0px;
+    } 
+    .banner_text h2 {
+        font-size: 36px;
+    }
+    
+}
+@media (max-width: 360px){
+.logo {
+    max-width: 99px;
+}
+}
+@media only screen and (min-width: 1360px) and (max-width: 1440px) {
+    .surgical-item{
+        flex-wrap: row wrap;
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 280px;
+        grid-auto-flow: row dense;
+    }
+    .surgical-item .grid-item:nth-child(1){
+        width: 500px;
+        height: 100%;
+        object-fit: cover;
+     }
+    .surgical-item .grid-item:nth-child(1) img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+     }
+     .surgical-item .grid-item:nth-child(2){ 
+        width: 300px;
+        height: 100%;
+        object-fit: cover;
+    }
+    .surgical-item .grid-item:nth-child(2) img{ 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .surgical-item .grid-item:nth-child(3){ 
+        width: 300px;
+        height: 100%;
+        object-fit: cover;
+    }
+     .surgical-item .grid-item:nth-child(3) img{ 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .surgical-item .grid-item:nth-child(4){ 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .surgical-item .grid-item:nth-child(4) img{ 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .content-details ul li a {
+        font-size: 15px;
+    }
+    .testi-slider {
+        height: 300px;
+    }
+    .content-details h3.content-title {
+        font-size: 28px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .testi-item-left img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+}
